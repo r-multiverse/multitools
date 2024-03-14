@@ -1,0 +1,55 @@
+Package: releases
+Title: Tools for Contributing Package Releases
+Description: 'R-releases' is a community-curated,
+  maintainer-driven repository of R package releases
+  based on 'R-universe'. The 'releases' package
+  has tools for maintainers of packages in 'R-releases'.
+Version: 0.0.4
+License: MIT + file LICENSE
+URL: https://r-releases.github.io/releases/, https://github.com/r-releases/releases
+BugReports: https://github.com/r-releases/releases/issues
+Authors@R: c(
+  person(
+    given = c("William", "Michael"),
+    family = "Landau",
+    role = c("aut", "cre"),
+    email = "will.landau.oss@gmail.com",
+    comment = c(ORCID = "0000-0003-1878-3253")
+  ),
+  person(
+    given = "Charlie",
+    family = "Gao",
+    role = "aut",
+    comment = c(ORCID = "0000-0002-0750-061X")
+  ),
+  person(
+    given = "Lluís",
+    family = "Revilla Sancho",
+    role = c("aut", "cph"),
+    comment = c(ORCID = "0000-0001-9747-2570")
+  ),
+  person(
+    family = "Eli Lilly and Company",
+    role = "cph"
+  ),
+  person(
+    given = "Hibiki AI Limited",
+    role = "cph"
+  ))
+Depends:
+  R (>= 4.0.0)
+Imports:
+  jsonlite,
+  tibble,
+  utils
+Suggests:
+  knitr (>= 1.30),
+  markdown (>= 1.1),
+  rmarkdown (>= 2.4),
+  testthat (>= 3.0.0)
+Encoding: UTF-8
+Language: en-US
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
