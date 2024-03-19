@@ -2,3 +2,8 @@ url: https://r-releases.github.io/releases/
 
 template:
   bootstrap: 5
+
+home:
+  links:
+  - text: Discussion forum
+    href: https://github.com/r-releases/help/discussions
