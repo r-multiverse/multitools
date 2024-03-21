@@ -1,4 +1,4 @@
 library(testthat)
-library(releases)
+library(multitools)
 
-test_check("releases")
+test_check("multitools")
