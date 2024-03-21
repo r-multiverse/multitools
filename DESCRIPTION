@@ -1,13 +1,14 @@
-Package: releases
-Title: Tools for Contributing Package Releases
-Description: 'R-releases' is a community-curated,
-  maintainer-driven repository of R package releases
-  based on 'R-universe'. The 'releases' package
-  has tools for maintainers of packages in 'R-releases'.
-Version: 0.0.4
+Package: multitools
+Title: Tools for Contributing Packages to R-multiverse
+Description: 'R-multiverse' is a community-curated collection of
+  R package releases, powered by 'R-universe'. The 'multitools' package
+  has tools for maintainers of packages in 'R-multiverse'.
+Version: 0.1.0
 License: MIT + file LICENSE
-URL: https://r-releases.github.io/releases/, https://github.com/r-releases/releases
-BugReports: https://github.com/r-releases/releases/issues
+URL:
+  https://r-multiverse.org/multitools/,
+  https://github.com/r-multiverse/multitools
+BugReports: https://github.com/r-multiverse/multitools/issues
 Authors@R: c(
   person(
     given = c("William", "Michael"),
