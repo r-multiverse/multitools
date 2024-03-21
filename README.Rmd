@@ -12,44 +12,44 @@ knitr::opts_chunk$set(
 )
 ```
 
-# releases: tools for R-releases <img src='man/figures/logo-readme.png' align="right" height="139"/>
+# multitools: tools for contributing packages to R-multiverse <img src='man/figures/logo-readme.png' align="right" height="139"/>
 
 <!-- badges: start -->
 [![status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![check](https://github.com/r-releases/releases/actions/workflows/check.yaml/badge.svg)](https://github.com/r-releases/releases/actions?query=workflow%3Acheck)
-[![codecov](https://codecov.io/gh/r-releases/releases/branch/main/graph/badge.svg?token=3T5DlLwUVl)](https://app.codecov.io/gh/r-releases/releases)
-[![lint](https://github.com/r-releases/releases/actions/workflows/lint.yaml/badge.svg)](https://github.com/r-releases/releases/actions?query=workflow%3Alint)
-[![pkgdown](https://github.com/r-releases/releases/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/r-releases/releases/actions?query=workflow%3Apkgdown)
+[![check](https://github.com/r-multiverse/multitools/actions/workflows/check.yaml/badge.svg)](https://github.com/r-multiverse/multitools/actions?query=workflow%3Acheck)
+[![codecov](https://codecov.io/gh/r-multiverse/multitools/branch/main/graph/badge.svg?token=3T5DlLwUVl)](https://app.codecov.io/gh/r-multiverse/multitools)
+[![lint](https://github.com/r-multiverse/multitools/actions/workflows/lint.yaml/badge.svg)](https://github.com/r-multiverse/multitools/actions?query=workflow%3Alint)
+[![pkgdown](https://github.com/r-multiverse/multitools/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/r-multiverse/multitools/actions?query=workflow%3Apkgdown)
 <!-- badges: end -->
 
-[R-releases](https://github.com/r-releases/help) is a community-curated, maintainer-driven repository of R package releases based on [R-universe](https://r-universe.dev). The `releases` package has tools for maintainers of packages in [R-releases](https://github.com/r-releases/help).
+[R-multiverse](https://r-multiverse.org) is a community-curated, maintainer-driven repository of R package releases based on [R-universe](https://r-universe.dev). The `multitools` package has tools for maintainers of packages in [R-multiverse](https://github.com/r-multiverse/help).
 
 # Documentation
 
-Please see <https://r-releases.github.io/releases> for documentation, including a function reference.
+Please see <https://r-multiverse.org/multitools> for documentation, including a function reference.
 
 # Code of Conduct
 
-Please note that the `releases` project is released with a [Contributor Code of Conduct](https://r-releases.github.io/conduct.html). By contributing to this project, you agree to abide by its terms.
+Please note that the `multitools` project is released with a [Contributor Code of Conduct](https://r-multiverse.org/conduct.html). By contributing to this project, you agree to abide by its terms.
 
 # Help
 
-Please post bug reports to <https://github.com/r-releases/help/issues> and general questions to <https://github.com/r-releases/help/discussions>.
+Please post bug reports to <https://github.com/r-multiverse/help/issues> and general questions to <https://github.com/r-multiverse/help/discussions>.
 
 # Installation
 
 For the development version:
 
 ```{r, eval = FALSE}
-remotes::install_github("r-releases/releases")
+remotes::install_github("r-multiverse/multitools")
 ```
 
 For the latest release:
 
 ```{r, eval = FALSE}
 install.packages(
-  "releases",
-  repos = c("https://r-releases.r-universe.dev", getOption("repos"))
+  "multitools",
+  repos = c("https://r-multiverse.r-universe.dev", getOption("repos"))
 )
 ```
 
@@ -68,24 +68,23 @@ check_versions()
 
 Package `pkg.a` was flagged because the current version is lower than the highest version ever released. Package `pkg.b` was flagged because there are two different releases under version 3.0.0.
 
-To fix the version number of an R-releases package that you maintain, create a new GitHub/GitLab release whose version number in the `DESCRIPTION` file is higher than the one in the `version_highest` column in the output of `check_releases()`.
+To fix the version number of an R-multiverse package that you maintain, create a new GitHub/GitLab release whose version number in the `DESCRIPTION` file is higher than the one in the `version_highest` column in the output of `check_versions()`.
 
 # Citation
 
 ```{r, eval = FALSE, warning = FALSE, comment = ""}
-o cite package ‘releases’ in publications use:
+o cite package ‘multitools’ in publications use:
 
-  Landau WM, Gao C, Revilla Sancho L (2024). _releases: Tools for Package
-  Releases_. R package version 0.0.1,
-  https://github.com/r-releases/releases,
-  <https://r-releases.github.io/releases/>.
+  Landau WM, Gao C, Revilla Sancho L (2024). _multitools: Tools for Contributing Packages to R-multiverse_. R package version 0.1.0,
+  https://github.com/r-multiverse/multitools,
+  <https://r-multiverse.org/multitools/>.
 
 A BibTeX entry for LaTeX users is
 
   @Manual{,
-    title = {releases: Tools for Package Releases},
+    title = {multitools: Tools for Contributing Packages to R-multiverse},
     author = {William Michael Landau and Charlie Gao and Lluís {Revilla Sancho}},
-    note = {R package version 0.0.1, https://github.com/r-releases/releases},
-    url = {https://r-releases.github.io/releases/},
+    note = {R package version 0.0.1, https://github.com/r-multiverse/multitools},
+    url = {https://r-multiverse.org/multitools/},
   }
 ```
