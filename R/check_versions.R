@@ -1,11 +1,11 @@
 #' @title Check package version etiquette.
 #' @export
-#' @description Check the etiquette of versions of packages in R-releases.
+#' @description Check the etiquette of versions of packages in R-multiverse.
 #' @details It is good practice to increment the version number of a
 #'   package on every new release. [check_versions()]
 #'   list the packages that have chosen to decrement the version number
 #'   or keep it the same over the course of the release cycle.
-#'   To fix the version number of an R-releases package that you
+#'   To fix the version number of an R-multiverse package that you
 #'   maintain, create a new GitHub/GitLab release whose version number
 #'   in the `DESCRIPTION` file is higher than the one
 #'   in the `version_highest` column in the output of [check_versions()].
@@ -13,20 +13,20 @@
 #'   * `package`: name of the package.
 #'   * `version_current`: version number of the latest package release.
 #'   * `version_highest`: highest version number across all the releases
-#'     created since the package was registered with R-releases.
+#'     created since the package was registered with R-multiverse.
 #'   * `hash_current`: the `RemoteSha` of the release corresponding to
 #'     `version_current`.
 #'   * `hash_highest`: the `RemoteSha` of the release corresponding to
 #'     `version_highest`.
 #' @examples
-#'   if (identical(Sys.getenv("RELEASES_EXAMPLES"), "true")) {
+#'   if (identical(Sys.getenv("MULTITOOLS_EXAMPLES"), "true")) {
 #'     check_versions()
 #'   }
 check_versions <- function() {
   manifest <- file.path(
     "https://raw.githubusercontent.com",
-    "r-releases",
-    "r-releases.r-universe.dev",
+    "r-multiverse",
+    "r-multiverse.r-universe.dev",
     "main",
     "version_issues.json"
   )

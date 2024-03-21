@@ -1,8 +1,8 @@
-This license and copyright notice applies only to the logo images of the R-releases project.
+This license and copyright notice applies only to the logo images of the R-multiverse project.
 Please refer to other licenses and copyright notices for all other parts of the project,
 such as the code and documentation.
 
-R-releases logo images copyright (c) 2024 Eli Lilly and Company, Hibiki AI Limited
+R-multiverse logo images copyright (c) 2024 Eli Lilly and Company, Hibiki AI Limited
 
 Attribution-ShareAlike 4.0 International
 

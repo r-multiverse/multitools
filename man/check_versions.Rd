@@ -12,7 +12,7 @@ A \code{tibble} with one row per package and the following columns:
 \item \code{package}: name of the package.
 \item \code{version_current}: version number of the latest package release.
 \item \code{version_highest}: highest version number across all the releases
-created since the package was registered with R-releases.
+created since the package was registered with R-multiverse.
 \item \code{hash_current}: the \code{RemoteSha} of the release corresponding to
 \code{version_current}.
 \item \code{hash_highest}: the \code{RemoteSha} of the release corresponding to
@@ -20,20 +20,20 @@ created since the package was registered with R-releases.
 }
 }
 \description{
-Check the etiquette of versions of packages in R-releases.
+Check the etiquette of versions of packages in R-multiverse.
 }
 \details{
 It is good practice to increment the version number of a
 package on every new release. \code{\link[=check_versions]{check_versions()}}
 list the packages that have chosen to decrement the version number
 or keep it the same over the course of the release cycle.
-To fix the version number of an R-releases package that you
+To fix the version number of an R-multiverse package that you
 maintain, create a new GitHub/GitLab release whose version number
 in the \code{DESCRIPTION} file is higher than the one
 in the \code{version_highest} column in the output of \code{\link[=check_versions]{check_versions()}}.
 }
 \examples{
-  if (identical(Sys.getenv("RELEASES_EXAMPLES"), "true")) {
+  if (identical(Sys.getenv("MULTITOOLS_EXAMPLES"), "true")) {
     check_versions()
   }
 }
