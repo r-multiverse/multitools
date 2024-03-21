@@ -1,7 +1,7 @@
 # Prework
 
-* [ ] I understand and agree to the [R-releases Code of Conduct](https://r-releases.github.io/conduct.html).
-* [ ] I have already submitted a [discussion topic](https://github.com/r-releases/releases/discussions) or [issue](https://github.com/r-releases/releases/issues) to discuss my idea with the maintainer.
+* [ ] I understand and agree to the [R-multiverse Code of Conduct](https://r-multiverse.github.io/conduct.html).
+* [ ] I have already submitted a [discussion topic](https://github.com/r-multiverse/multitools/discussions) or [issue](https://github.com/r-multiverse/multitools/issues) to discuss my idea with the maintainer.
 
 # Related GitHub issues and pull requests
 

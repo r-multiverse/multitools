@@ -1,4 +1,4 @@
-url: https://r-releases.github.io/releases/
+url: https://r-multiverse.org/multitools
 
 template:
   bootstrap: 5
@@ -6,4 +6,4 @@ template:
 home:
   links:
   - text: Discussion forum
-    href: https://github.com/r-releases/help/discussions
+    href: https://github.com/r-multiverse/help/discussions
