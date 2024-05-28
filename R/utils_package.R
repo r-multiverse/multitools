@@ -6,12 +6,4 @@
 #' @family help
 #' @importFrom jsonlite read_json
 #' @importFrom tibble as_tibble tibble
-#' @importFrom utils browseURL install.packages globalVariables
 NULL
-
-utils::globalVariables(
-  c(
-    "."
-  ),
-  package = "multitools"
-)

@@ -26,25 +26,29 @@ check_versions <- function() {
   manifest <- file.path(
     "https://raw.githubusercontent.com",
     "r-multiverse",
-    "r-multiverse.r-universe.dev",
+    "checks",
     "main",
-    "version_issues.json"
+    "versions.json"
   )
   out <- jsonlite::read_json(
     path = manifest,
     simplifyVector = TRUE,
     simplifyDataFrame = TRUE
   )
-  out <- tibble::as_tibble(out)
   if (nrow(out) < 1L) {
-    out <- tibble::tibble(
-      package = character(0L),
-      version_current = character(0L),
-      version_highest = character(0L),
-      hash_current = character(0L),
-      hash_highest = character(0L)
+    return(
+      tibble::tibble(
+        package = character(0L),
+        version_current = character(0L),
+        version_highest = character(0L),
+        hash_current = character(0L),
+        hash_highest = character(0L)
+      )
     )
   }
+  out <- out[out[["version_current"]] != out[["version_highest"]] |
+               out[["hash_current"]] != out[["hash_highest"]], ]
+  out <- tibble::as_tibble(out)
   order <- c(
     "package",
     "version_current",

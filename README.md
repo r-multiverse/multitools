@@ -78,7 +78,7 @@ column in the output of `check_versions()`.
 # Citation
 
 ``` r
-o cite package ‘multitools’ in publications use:
+To cite package ‘multitools’ in publications use:
 
   Landau WM, Gao C, Revilla Sancho L (2024). _multitools: Tools for Contributing Packages to R-multiverse_. R package version 0.1.0,
   https://github.com/r-multiverse/multitools,
