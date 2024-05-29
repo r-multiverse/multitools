@@ -1,4 +1,8 @@
-# multitools 0.5.0
+# multitools 0.1.1
+
+* Aligns with R-Multiverse infrastructure.
+
+# multitools 0.1.0
 
 * Rename package.
 

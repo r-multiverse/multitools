@@ -3,7 +3,7 @@ Title: Tools for Contributing Packages to R-multiverse
 Description: 'R-multiverse' is a community-curated collection of
   R package releases, powered by 'R-universe'. The 'multitools' package
   has tools for maintainers of packages in 'R-multiverse'.
-Version: 0.1.0
+Version: 0.1.1
 License: MIT + file LICENSE
 URL:
   https://r-multiverse.org/multitools/,
@@ -41,8 +41,7 @@ Depends:
   R (>= 4.0.0)
 Imports:
   jsonlite,
-  tibble,
-  utils
+  tibble
 Suggests:
   curl,
   knitr (>= 1.30),
