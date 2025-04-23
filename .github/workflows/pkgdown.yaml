@@ -10,6 +10,8 @@ on:
   workflow_dispatch:
 
 name: pkgdown
+permissions:
+  contents: write
 
 jobs:
   pkgdown:
