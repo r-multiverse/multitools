@@ -3,6 +3,8 @@
 on: [push, pull_request]
 
 name: check
+permissions:
+  contents: read
 
 jobs:
   check:
