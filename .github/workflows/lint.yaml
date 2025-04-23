@@ -3,6 +3,8 @@
 on: [push, pull_request]
 
 name: lint
+permissions:
+  contents: read
 
 jobs:
   lint:
