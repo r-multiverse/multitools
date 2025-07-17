@@ -1,7 +1,7 @@
 # The `multitools` package is discontinued.
 
 The `multitools` package is discontinued.
-R-multiverse, however, is still active.
+However, R-multiverse is still active.
 Please see <https://r-multiverse.org> for documentation.
 
 # multitools: tools for contributing packages to R-multiverse <img src='man/figures/logo-readme.png' align="right" height="139"/>
