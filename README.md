@@ -1,9 +1,13 @@
+# Discontinued
+
+The `multitools` package is discontinued.
+For documentation on R-multiverse, please see <https://r-multiverse.org>.
 
 # multitools: tools for contributing packages to R-multiverse <img src='man/figures/logo-readme.png' align="right" height="139"/>
 
 <!-- badges: start -->
 
-[![status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![status](https://www.repostatus.org/badges/latest/abandoned.svg)](https://www.repostatus.org/#abandoned)
 [![check](https://github.com/r-multiverse/multitools/actions/workflows/check.yaml/badge.svg)](https://github.com/r-multiverse/multitools/actions?query=workflow%3Acheck)
 [![codecov](https://codecov.io/gh/r-multiverse/multitools/branch/main/graph/badge.svg?token=3T5DlLwUVl)](https://app.codecov.io/gh/r-multiverse/multitools)
 [![lint](https://github.com/r-multiverse/multitools/actions/workflows/lint.yaml/badge.svg)](https://github.com/r-multiverse/multitools/actions?query=workflow%3Alint)
